@@ -2,7 +2,7 @@
 
 Runnable Node.js and Python examples for the [ACE Music API](https://useapi.net/docs/api-acemusic-v1?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api): two songs per request from a prompt or from your own lyrics on ACE Music v1, ACE Music v1.1 Preview and the free ACE-Step v1.5 XL, then covers, remixes, edits, mashups, stems, WAV, MIDI and MusicXML downloads and scores. It all runs through a REST API on your [ACE Music subscription](https://acemusic.ai/pricing/): Free, Creator $9.90 or Artist $29 a month (as of November 2026). ACE Music v1 and v1.1 have no public API of their own (as of November 2026), and ACE-Step v1.5 XL songs use no credits on any ACE Music plan.
 
-ACE Music v1 ranks #1 on [Artificial Analysis' vocal music leaderboard](https://artificialanalysis.ai/music/leaderboard/vocals), ahead of Suno v6 (Elo 1160 vs 1144, as of November 14, 2026).
+ACE Music v1 ranks #1 on [Artificial Analysis' vocal music leaderboard](https://artificialanalysis.ai/music/leaderboard/vocals), ahead of Suno v6 (as of November 14, 2026).
 
 Every example has a Node.js script (`.mjs`) and a Python twin (`.py`), with no dependencies to install, and most read their requests from a `prompts.json` you edit. Each one submits its requests, polls the jobs, downloads the songs into its own `output/` folder and prints what it made. Full walkthrough of every call: **[How to Generate AI Songs with the ACE Music API](https://useapi.net/docs/articles/ace-music-api-tutorial?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api)**.
 
