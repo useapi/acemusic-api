@@ -32,6 +32,7 @@ python3 upload-reference.py --image robot-mascot.png --only 2
 
 1. A prompt with `references: [<your audio>]` on ACE Music v1. With a reference song ACE Music may run the request on v1.1 to keep the tune: in our run the job reported `model: acemusic-v1`, `modelUsed: acemusic-v1.1`.
 2. A prompt with `images: [<your picture>]` on ACE Music v1: bouncy drum and bass for a dancing robot mascot. With the robot picture above, ACE Music titled it "Bleep Boop Bounce" and wrote lyrics about what it saw: the teal fur, the orange high-tops, the box head and its blinking bulb eyes. [Listen to it](https://useapi.net/docs/articles/ace-music-api-tutorial?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api#your-audio-and-pictures).
+   Watch and hear it: [Bleep Boop Bounce, the YouTube Short](https://youtube.com/shorts/z_aOmILvIng).
 
 Each costs 4 credits. `useAudio` and `useImage` tell the script which upload to attach. Every upload's `songId` or `mediaId` is also saved to `output/uploads.jsonl`, so you can cover, remix or mash up your recording later with `--song`. `--only 0` uploads without making songs.
 
