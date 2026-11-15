@@ -6,8 +6,8 @@
         "useAudio": true
     },
     {
-        "_about": "A prompt with an uploaded picture (up to 3 images): ACE Music writes a song about it",
-        "prompt": "A warm, sunny folk-pop song about the person in this picture and a summer spent with the bees",
+        "_about": "A prompt with an uploaded picture (up to 3 images): ACE Music writes a song about it. Try it with the robot mascot from the README",
+        "prompt": "Bouncy, playful drum and bass for a dancing robot mascot: rolling breakbeats at 174 bpm, a wobbly reese bass, bleepy robot synth hooks, vocoder chops, cheeky and upbeat.",
         "model": "acemusic-v1",
         "useImage": true
     }

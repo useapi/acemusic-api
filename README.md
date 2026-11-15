@@ -58,7 +58,7 @@ ACE Music charges its own credits per request, from the plan you already pay for
 | Score of an ACE-Step song, first read | 1 |
 | Lyrics and style writers, uploads, WAV, MIDI and MusicXML | 0 in our tests (WAV, MIDI and MusicXML need a paid plan) |
 
-A song costs 2 credits, from $0.013 on Artist billed yearly to $0.023 on Artist monthly. The [API overview](https://useapi.net/docs/api-acemusic-v1?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api#pricing) has the price on every plan. Making every song for our tutorial with these scripts used 113 credits on an Artist account, 65 of them for the two stem splits.
+A song costs 2 credits, from $0.013 on Artist billed yearly to $0.023 on Artist monthly. The [API overview](https://useapi.net/docs/api-acemusic-v1?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api#pricing) has the price on every plan. Making every song for our tutorial with these scripts used 117 credits on an Artist account, 65 of them for the two stem splits.
 
 ## MCP server
 

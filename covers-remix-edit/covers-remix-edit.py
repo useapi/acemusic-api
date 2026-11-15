@@ -32,7 +32,8 @@ for n, p in enumerate(prompts, 1):
     body = {'references': [songs[0]], **{k: v for k, v in p.items() if not k.startswith('_')}}
     items.append({'prefix': f'{n:02d}-{p["mode"]}-{p.get("model", "acemusic-v1")}', 'body': body})
 
-# A cover on ACE Music v1 or v1.1 runs on v1.1, which follows the song's melody: make sure the song has its score
+# A cover on ACE Music v1 or v1.1 runs on v1.1, which follows the song's melody. The API reads an ACE Music v1 song's
+# score by itself (free); an ACE-Step song's score must be read first (1 credit), so make sure the song has its score
 if any(i['body'].get('mode') == 'cover' and i['body'].get('model') != 'ace-step-1.5-xl' for i in items):
     ensure_score(songs[0])
 

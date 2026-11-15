@@ -19,7 +19,9 @@ export ACEMUSIC_EMAIL=you@example.com   # optional
 
 ```bash
 node upload-reference.mjs --audio my-demo.mp3 --title "My demo" --only 1
-python3 upload-reference.py --image picture.jpg --only 2
+# the picture from our run: a dancing robot mascot
+curl -o robot-mascot.png https://media.useapi.net/blog/2026-09-07-260907/dreamina-longvideo-ref-robot-mascot.png
+python3 upload-reference.py --image robot-mascot.png --only 2
 ```
 
 - Audio: MP3, WAV, FLAC, OGG, M4A or AAC, up to 100 MB and 8 minutes. Transcribing took about 15 seconds for a 90-second file in our run. Uploads count against the account's upload allowance: 10 minutes of audio on Free, 30 on Creator, 60 on Artist.
@@ -29,7 +31,7 @@ python3 upload-reference.py --image picture.jpg --only 2
 ## prompts.json
 
 1. A prompt with `references: [<your audio>]` on ACE Music v1. With a reference song ACE Music may run the request on v1.1 to keep the tune: in our run the job reported `model: acemusic-v1`, `modelUsed: acemusic-v1.1`.
-2. A prompt with `images: [<your picture>]` on ACE Music v1.
+2. A prompt with `images: [<your picture>]` on ACE Music v1: bouncy drum and bass for a dancing robot mascot. With the robot picture above, ACE Music titled it "Bleep Boop Bounce" and wrote lyrics about what it saw: the teal fur, the orange high-tops, the box head and its blinking bulb eyes. [Listen to it](https://useapi.net/docs/articles/ace-music-api-tutorial?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api#your-audio-and-pictures).
 
 Each costs 4 credits. `useAudio` and `useImage` tell the script which upload to attach. Every upload's `songId` or `mediaId` is also saved to `output/uploads.jsonl`, so you can cover, remix or mash up your recording later with `--song`. `--only 0` uploads without making songs.
 

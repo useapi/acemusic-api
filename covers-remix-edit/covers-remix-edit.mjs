@@ -31,7 +31,8 @@ const items = prompts
         body: { references: [song], ...Object.fromEntries(Object.entries(p).filter(([k]) => !k.startsWith('_'))) },
     }))
 
-// A cover on ACE Music v1 or v1.1 runs on v1.1, which follows the song's melody: make sure the song has its score
+// A cover on ACE Music v1 or v1.1 runs on v1.1, which follows the song's melody. The API reads an ACE Music v1 song's
+// score by itself (free); an ACE-Step song's score must be read first (1 credit), so make sure the song has its score
 if (items.some(i => i.body.mode === 'cover' && i.body.model !== 'ace-step-1.5-xl')) await ensureScore(song)
 
 const { results, spent } = await runBatch(items, join(HERE, 'output'), { example: 'covers-remix-edit' })

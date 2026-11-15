@@ -1,5 +1,5 @@
 // Upload your own audio and an image with the ACE Music API by useapi.net (POST /files), then make songs guided by them.
-// Usage: node upload-reference.mjs --audio my-song.mp3 [--image picture.jpg] [--title "My demo"] [--only 1,2] [--email you@example.com]
+// Usage: node upload-reference.mjs --audio my-song.mp3 [--image robot-mascot.png] [--title "My demo"] [--only 1,2] [--email you@example.com]
 // Audio: MP3, WAV, FLAC, OGG, M4A or AAC, up to 100 MB and 8 minutes. ACE Music transcribes it into a Library song
 // (lyrics, style, tempo, melody), usable as a reference: in a prompt, or to cover, remix, edit or mash up.
 // Image: JPEG, PNG or WebP, up to 10 MB, for a prompt's images.
