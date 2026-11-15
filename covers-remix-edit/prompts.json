@@ -1,0 +1,27 @@
+[
+    {
+        "_about": "A cover on ACE Music v1.1 Preview (4 credits): the song in a new style, following its melody, chords and structure",
+        "mode": "cover",
+        "model": "acemusic-v1.1",
+        "style": "stripped-back acoustic folk cover, fingerpicked steel-string guitar, warm cello, soft close-mic'd male vocal"
+    },
+    {
+        "_about": "A remix on ACE-Step v1.5 XL (no credits): coverStrength keeps the original, remixStrength moves away from it",
+        "mode": "remix",
+        "model": "ace-step-1.5-xl",
+        "title": "House Remix",
+        "style": "deep house remix, four-on-the-floor kick, plucky chords, rolling bassline, filtered vocal chops",
+        "coverStrength": 40,
+        "remixStrength": 50
+    },
+    {
+        "_about": "An edit on ACE-Step v1.5 XL (no credits): rewrites seconds 30 to 50 with new words, keeps the rest",
+        "mode": "edit",
+        "model": "ace-step-1.5-xl",
+        "title": "Lanterns in the Snow",
+        "start": 30,
+        "end": 50,
+        "style": "cinematic indie pop ballad, felt piano, swelling strings, intimate female vocal",
+        "lyrics": "We wrote our names on paper lanterns\nDown by the harbor in the snow\nYou said the stars would keep the answer\nIf we were brave enough to go"
+    }
+]

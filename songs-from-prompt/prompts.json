@@ -1,0 +1,17 @@
+[
+    {
+        "_about": "ACE Music v1 (the default model, 4 credits for two songs): ACE Music writes the style, lyrics and title from your idea",
+        "prompt": "A late-night neo-soul slow jam about two strangers sharing an umbrella at a bus stop in the rain and missing the last bus on purpose. Warm Rhodes piano, brushed drums, round upright bass, a smoky female lead with close three-part harmonies on the chorus.",
+        "model": "acemusic-v1"
+    },
+    {
+        "_about": "ACE Music v1.1 Preview (4 credits): writes a score first, then the audio",
+        "prompt": "An anthemic Celtic folk-rock singalong about a fishing crew racing a storm back to the harbor. Fiddle and tin whistle hooks, stomping kick drum, bodhran, a gravelly male lead and the whole crew shouting the chorus.",
+        "model": "acemusic-v1.1"
+    },
+    {
+        "_about": "ACE-Step v1.5 XL (no credits on any ACE Music plan, the Free plan included)",
+        "prompt": "A breezy bossa nova for a lazy Sunday afternoon in Lisbon: nylon-string guitar, soft brushed snare, upright bass, a gentle flute line and a warm male and female duet sung in Portuguese.",
+        "model": "ace-step-1.5-xl"
+    }
+]

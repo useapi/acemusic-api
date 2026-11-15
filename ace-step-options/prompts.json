@@ -1,0 +1,35 @@
+[
+    {
+        "_about": "A waltz: 3/4 at 84 bpm in D minor, 2 minutes, styles to avoid, thinking 60",
+        "title": "Midnight Waltz",
+        "style": "dark cabaret waltz, accordion, pizzicato strings, upright bass, brushed snare, theatrical female vocal",
+        "lyrics": "[Verse 1]\nThe band plays slow when the lights go low\nAnd the chandeliers begin to sway\nTake my hand, we will dance till the candles stand\nIn puddles of yesterday\n\n[Chorus]\nOne, two, three, turn around with me\nRound and round till the morning comes\nOne, two, three, oh don't let me be\nThe last one dancing when the music's done\n\n[Verse 2]\nThe clock strikes twelve and it laughs at itself\nEvery mirror wears a stranger's face\nHold me close, we are only ghosts\nWho forgot to leave this place\n\n[Chorus]\nOne, two, three, turn around with me\nRound and round till the morning comes\nOne, two, three, oh don't let me be\nThe last one dancing when the music's done",
+        "bpm": 84,
+        "timeSignature": "3/4",
+        "key": "D minor",
+        "duration": 120,
+        "negative": "trap drums, EDM, autotune",
+        "thinking": 60
+    },
+    {
+        "_about": "A jig: 6/8 at 116 bpm in G major, an instrumental of 90 seconds",
+        "title": "Harbour Jig",
+        "style": "lively celtic instrumental jig, fiddle and tin whistle trading the melody, bodhran, strummed bouzouki, foot stomps",
+        "instrumental": true,
+        "bpm": 116,
+        "timeSignature": "6/8",
+        "key": "G major",
+        "duration": 90
+    },
+    {
+        "_about": "Drum and bass: 4/4 at 174 bpm in F minor, 150 seconds, thinking 80",
+        "title": "Almost Home",
+        "style": "liquid drum and bass, rolling breakbeats, deep warm sub bass, airy pads, soulful female vocal",
+        "lyrics": "[Verse]\nCity lights in the rear view mirror\nRunning on a borrowed night\nEvery bridge is a little bit nearer\nEvery tunnel full of light\n\n[Chorus]\nHold on, we're almost home\nEvery signal turning green\nHold on, you're not alone\nFaster than the in-between\n\n[Verse]\nRadio low and the windows open\nBreathing in the summer rain\nEvery promise we left unspoken\nRushing back to us again\n\n[Chorus]\nHold on, we're almost home\nEvery signal turning green\nHold on, you're not alone\nFaster than the in-between",
+        "bpm": 174,
+        "timeSignature": "4/4",
+        "key": "F minor",
+        "duration": 150,
+        "thinking": 80
+    }
+]

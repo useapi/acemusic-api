@@ -1,0 +1,32 @@
+[
+    {
+        "_about": "Your own lyrics in your own style on ACE Music v1 (4 credits): verse, pre-chorus, chorus and bridge tags, a set length",
+        "title": "Paper Lanterns",
+        "style": "cinematic indie pop ballad, felt piano, swelling strings, deep heartbeat kick, intimate female vocal that opens up into a soaring chorus, 72 bpm",
+        "lyrics": "[Verse 1]\nWe wrote our names on paper lanterns\nDown by the river in July\nYou said the wind would know the answer\nIf we just let the fire fly\nYour hand was shaking, mine was steady\nAt least that's how I tell it now\nWe watched them climb until the city\nWas just a glow beneath the clouds\n\n[Pre-Chorus]\nSo every summer I come back here\nStrike a match and hold it near\n\n[Chorus]\nLight it up and let it go\nEvery word I never said out loud\nLight it up and let it go\nHigher than the both of us somehow\nAnd if it finds you anyhow\nTell me you can see it from the clouds\n\n[Verse 2]\nThey tore the old pier down last winter\nPut up a fence and painted lines\nBut I still know the way by heartbeat\nI find the water every time\nI keep a lighter in my pocket\nI keep your laugh inside my head\nI fold the paper like you showed me\nAnd write the things I should have said\n\n[Pre-Chorus]\nSo every summer I come back here\nStrike a match and hold it near\n\n[Chorus]\nLight it up and let it go\nEvery word I never said out loud\nLight it up and let it go\nHigher than the both of us somehow\nAnd if it finds you anyhow\nTell me you can see it from the clouds\n\n[Bridge]\nPaper and fire, paper and fire\nNothing this light should rise so high\nPaper and fire, paper and fire\nMaybe that's how we say goodbye\n\n[Final Chorus]\nLight it up and let it go\nEvery word I never said out loud\nLight it up and let it go\nHigher than the both of us somehow\n\n[Outro]\nDown by the river in July",
+        "model": "acemusic-v1",
+        "duration": 210
+    },
+    {
+        "_about": "An instrumental on ACE Music v1 (4 credits): instrumental true, a length and styles to avoid",
+        "title": "Neon Overpass",
+        "style": "cinematic synthwave instrumental for a night drive: pulsing analog bass arpeggio, gated reverb drums, lush pads, a soaring lead synth melody, builds to a big final section, 108 bpm",
+        "instrumental": true,
+        "model": "acemusic-v1",
+        "duration": 150,
+        "negative": "vocals, choir, acoustic guitar"
+    },
+    {
+        "_about": "Lyrics in Spanish on ACE Music v1 (4 credits)",
+        "title": "Bailando en la Azotea",
+        "style": "modern cumbia pop, bright accordion hooks, güira and congas, warm bass, a festive male lead with a crowd shouting the chorus, 98 bpm",
+        "lyrics": "[Verse 1]\nSe fue la luz en todo el barrio\nY nadie quiere irse a dormir\nDoña Rosa saca el radio viejo\nY la noche empieza a sonreír\nLos vecinos suben con sus sillas\nAlguien trae limones y café\nY la ciudad allá abajo, oscura\nNos mira bailar sin saber por qué\n\n[Pre-Chorus]\nSube, sube, que la luna está invitando\nSube, sube, que la calle está cantando\n\n[Chorus]\nBailando en la azotea\nCon las estrellas de farol\nQue se entere todo el mundo\nQue esta noche no hay apagón\nBailando en la azotea\nCon el corazón de tambor\nSi se apaga la ciudad entera\nAquí arriba sobra amor\n\n[Verse 2]\nEl abuelo saca la guitarra\nLa vecina de enfrente se animó\nLos niños corren entre las sábanas\nQue el viento de la tarde colgó\nNadie sabe cuándo vuelve la corriente\nY la verdad, a nadie le importó\nEsta fiesta no la paga nadie\nEsta fiesta la invitó el apagón\n\n[Chorus]\nBailando en la azotea\nCon las estrellas de farol\nQue se entere todo el mundo\nQue esta noche no hay apagón\nBailando en la azotea\nCon el corazón de tambor\nSi se apaga la ciudad entera\nAquí arriba sobra amor\n\n[Outro]\nQue esta noche no hay apagón",
+        "model": "acemusic-v1"
+    },
+    {
+        "_about": "ACE Music writes the lyrics (POST /music/lyrics) and the style (POST /music/style), then ACE-Step v1.5 XL sings them for no credits",
+        "writeLyrics": "A wistful country song about an old pickup truck that still has her mixtape stuck in the tape deck",
+        "improveStyle": "classic country ballad, pedal steel, warm baritone",
+        "model": "ace-step-1.5-xl"
+    }
+]

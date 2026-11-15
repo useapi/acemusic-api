@@ -1,0 +1,14 @@
+[
+    {
+        "_about": "A prompt guided by your uploaded audio (up to 3 references). ACE Music may run it on v1.1 to keep the tune: see model and modelUsed",
+        "prompt": "A rowdy pub singalong with a big shouted chorus about the last ferry home, built on the tune of this recording",
+        "model": "acemusic-v1",
+        "useAudio": true
+    },
+    {
+        "_about": "A prompt with an uploaded picture (up to 3 images): ACE Music writes a song about it",
+        "prompt": "A warm, sunny folk-pop song about the person in this picture and a summer spent with the bees",
+        "model": "acemusic-v1",
+        "useImage": true
+    }
+]

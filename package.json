@@ -1,0 +1,17 @@
+{
+  "name": "acemusic-api",
+  "version": "1.0.0",
+  "description": "Runnable Node.js and Python examples for the ACE Music API by useapi.net: songs from prompts or your own lyrics on ACE Music v1, v1.1 and the free ACE-Step v1.5 XL, covers, remixes, edits, mashups, stems, WAV, MIDI and MusicXML downloads.",
+  "author": "useapi.net",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://useapi.net/docs/api-acemusic-v1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useapi/acemusic-api.git"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "keywords": ["ace music", "ace music api", "ace-step", "ai music", "music generation", "song generator", "suno alternative", "stems", "mcp", "useapi"]
+}

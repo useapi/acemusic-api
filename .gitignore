@@ -1,0 +1,15 @@
+node_modules
+.vscode
+.env
+__pycache__/
+*.pyc
+
+# Songs, covers, stems, scores, job records and spend ledgers the scripts write
+output/
+*.mp3
+*.wav
+*.mid
+*.musicxml
+*.abc
+*.jpg
+*.zip
