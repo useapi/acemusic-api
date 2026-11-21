@@ -1,0 +1,22 @@
+{
+  "name": "useapi-acemusic",
+  "version": "1.0.0",
+  "description": "Hosted ACE Music MCP server by useapi.net (15 tools): make songs from an idea or your own lyrics, cover, remix, edit and mash up songs, split stems and get scores, on your own ACE Music accounts. Third-party paid service, not affiliated with ACE Music or Timedomain.",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "useapi.net API token",
+      "description": "Your useapi.net API token, from https://useapi.net/docs/start-here/setup-useapi",
+      "envVar": "USEAPI_TOKEN",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "useapi-acemusic": {
+      "httpUrl": "https://api.useapi.net/v1/acemusic/mcp",
+      "headers": {
+        "Authorization": "Bearer ${USEAPI_TOKEN}"
+      }
+    }
+  }
+}

@@ -76,6 +76,33 @@ claude mcp add --transport http useapi-acemusic https://api.useapi.net/v1/acemus
 
 Cursor, VS Code, the Claude app, ChatGPT and the full tool list: [ACE Music MCP server docs](https://useapi.net/docs/api-acemusic-v1/mcp?utm_source=github.com&utm_medium=referral&utm_campaign=acemusic-api).
 
+## Use with Claude Code
+
+This repo is also a Claude Code plugin marketplace. The plugin adds the hosted ACE Music MCP server, and reads your token from the `USEAPI_TOKEN` environment variable, so set it before you start Claude Code:
+
+```bash
+export USEAPI_TOKEN=user:12345-...      # your useapi.net API token
+```
+
+Then, inside Claude Code:
+
+```
+/plugin marketplace add useapi/acemusic-api
+/plugin install acemusic@useapi-acemusic
+```
+
+On Claude Code 2.1.275 or later, `/plugin install acemusic --marketplace useapi/acemusic-api` does both in one step. Run `/mcp` to check that `useapi-acemusic` is connected.
+
+## Use with Gemini CLI
+
+This repo is also a Gemini CLI extension with the same MCP server:
+
+```bash
+gemini extensions install https://github.com/useapi/acemusic-api
+```
+
+The install asks for your useapi.net API token and keeps it in the system keychain. Change it later with `gemini extensions config useapi-acemusic`, and check the connection with `gemini mcp list`.
+
 ## Common questions
 
 <!-- Facts as of 2026-11-14, the same as the useapi.net ACE Music API overview (docs/api-acemusic-v1/index.md): acestep.io/pricing (API only on the $49 Studio plan, about 360 songs a month), acemusic.ai/pricing (Creator $9.90, Artist $29, yearly $94.80 and $199). -->

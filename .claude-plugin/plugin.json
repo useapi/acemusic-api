@@ -1,0 +1,29 @@
+{
+  "name": "acemusic",
+  "displayName": "ACE Music (useapi.net)",
+  "description": "Hosted ACE Music MCP server by useapi.net (15 tools): make songs from an idea or your own lyrics, cover, remix, edit and mash up songs, split stems and get scores, on your own ACE Music accounts. Third-party paid service, not affiliated with ACE Music or Timedomain.",
+  "author": {
+    "name": "useapi.net",
+    "url": "https://useapi.net"
+  },
+  "homepage": "https://useapi.net/docs/api-acemusic-v1/mcp",
+  "repository": "https://github.com/useapi/acemusic-api",
+  "license": "MIT",
+  "keywords": [
+    "acemusic",
+    "music",
+    "song",
+    "stems",
+    "mcp",
+    "useapi"
+  ],
+  "mcpServers": {
+    "useapi-acemusic": {
+      "type": "http",
+      "url": "https://api.useapi.net/v1/acemusic/mcp",
+      "headers": {
+        "Authorization": "Bearer ${USEAPI_TOKEN}"
+      }
+    }
+  }
+}

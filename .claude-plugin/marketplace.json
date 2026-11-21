@@ -1,0 +1,23 @@
+{
+  "name": "useapi-acemusic",
+  "description": "useapi.net ACE Music plugin for Claude Code: the hosted MCP server.",
+  "owner": {
+    "name": "useapi.net",
+    "url": "https://useapi.net"
+  },
+  "plugins": [
+    {
+      "name": "acemusic",
+      "source": "./",
+      "description": "Hosted ACE Music MCP server by useapi.net (15 tools): make songs from an idea or your own lyrics, cover, remix, edit and mash up songs, split stems and get scores, on your own ACE Music accounts. Third-party paid service, not affiliated with ACE Music or Timedomain.",
+      "category": "media",
+      "tags": [
+        "acemusic",
+        "music",
+        "song",
+        "stems",
+        "mcp"
+      ]
+    }
+  ]
+}
